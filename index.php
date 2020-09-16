@@ -2,6 +2,7 @@
 	//When you see this line in your Web browser, it means your web server does not support php, our php pages can not run on it. 
   //Administration page
   include_once("conn.php");
+  include_once("conn1.php");
 	
   if ($_SESSION["admin"] == "") {
 	  goto_url("login.php");

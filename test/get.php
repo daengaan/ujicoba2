@@ -19,6 +19,7 @@
 	$strResults = $_POST["quesInfo"];
 	$strResults = addslashes($strResults);
 	$postDate   = $_POST["postDate"];
+	$tarakan = "tarakan"
 	
 	//Adding data to the database...
 	$sql = "INSERT INTO `quiz` (`id`, `quizId`, `quizTitle`, `userName`, `userMail`, `userId`, `userScore`, `totalScore`, `passScore`, `passState`, `Result`, `userDate`, `addDate`) ";
