@@ -1,0 +1,22 @@
+.picker{
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			margin: auto;
+			width: 720px;
+			height: 180px;
+		}
+#display{
+			width: 100%;
+			height: 100px;
+			background: red;
+			transition: background 100ms;
+			margin-top: 30px;
+			border: 1px solid #000
+		}
+input{
+			display: block;
+			width: 100%;
+		}
